@@ -21,9 +21,11 @@ window = Tk()
 entry = Entry(window,
               font=("Arial", 50),
               fg="#00FF00",
-              bg="Black")
-entry.insert(1, "Batman")
-# entry.config()
+             bg="Black")
+
+entry.insert(0, "Batman")
+entry.config(show="*")
+entry.config(state=DISABLED)
 entry.pack(side=LEFT)
 
 submit_button = Button(window, text="Submit", command=submit)
