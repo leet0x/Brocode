@@ -10,3 +10,4 @@ label2 = Label(window, bg="yellow", width=10, height=5)
 label2.place(x=100, y=100)
 
 window.mainloop()
+
