@@ -1,7 +1,9 @@
 from tkinter import *
 
+
 def doSomething(event):
     label.config(text=event.keysym)
+
 
 window = Tk()
 
