@@ -7,7 +7,7 @@ def doSomething(event):
 
 window = Tk()
 
-
+#some comment
 window.bind("<Key>", doSomething)
 
 label = Label(window, font=("Helvetica", 50))
