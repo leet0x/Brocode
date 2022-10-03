@@ -5,6 +5,7 @@ from tkinter import *
 
 def submit():
     username = entry.get()
+
     print("hello " + username)
 
 
