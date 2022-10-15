@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Brocode.iml" filepath="$PROJECT_DIR$/.idea/Brocode.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/BroCode.iml" filepath="$PROJECT_DIR$/.idea/BroCode.iml" />
+>>>>>>> 3b54328d7121607717fa163283445ae3a18809c1
     </modules>
   </component>
 </project>
