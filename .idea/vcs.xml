@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-<<<<<<< HEAD
-    <mapping directory="$PROJECT_DIR$/Brocode" vcs="Git" />
-=======
->>>>>>> 3b54328d7121607717fa163283445ae3a18809c1
   </component>
 </project>
