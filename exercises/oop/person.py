@@ -1,4 +1,4 @@
-from math import *
+
 class Person:
     '''this is a docstring. some description about our class'''
 
@@ -7,7 +7,7 @@ class Person:
         self.sex = sex
         self.profession = profession
 
-    #behavior (instance methods)
+    # behavior (instance methods)
     def show(self):
         print("Name: ", self.name, "\nSex: ", self.sex, "\nProfession: ", self.profession)
 
