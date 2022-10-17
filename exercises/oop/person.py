@@ -1,4 +1,4 @@
-from math import *
+
 class Person:
     '''this is a docstring. some description about our class'''
 
@@ -7,7 +7,7 @@ class Person:
         self.sex = sex
         self.profession = profession
 
-    #behavior (instance methods)
+    # behavior (instance methods)
     def show(self):
         print("Name: ", self.name, "\nSex: ", self.sex, "\nProfession: ", self.profession)
 
@@ -44,9 +44,14 @@ class Person:
 
 
 person = Person("Liku", "Male", "Software Developer")
+<<<<<<< HEAD
 # person.show()
 # person.work()
 # person.printString(person.profession)
 # list = [5, 6, 3, 8, 9, 4]
 # print(person.findMinList(list))
 person.printRange()
+=======
+person.show()
+person.work()
+>>>>>>> 8b4ae36a81bdf249b1f2190bf6d04f65e77582c3
