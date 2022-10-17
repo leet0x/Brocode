@@ -25,7 +25,28 @@ class Person:
 
         return min
 
+    def printString(self, someString):
+        for character in someString:
+            print(character, end="  ")
+            # print(character)
+
+    def findMinList(self, list):
+        min = list[0]
+        for item in list:
+            if item < min:
+                min = item
+
+        return min
+
+    def printRange(self):
+        for counter in range(10):
+            print(counter)
+
 
 person = Person("Liku", "Male", "Software Developer")
-person.show()
-person.work()
+# person.show()
+# person.work()
+# person.printString(person.profession)
+# list = [5, 6, 3, 8, 9, 4]
+# print(person.findMinList(list))
+person.printRange()
