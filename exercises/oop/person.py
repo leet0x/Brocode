@@ -31,7 +31,7 @@ class Person:
             # print(character)
 
     def findMinList(self, list):
-        min = list[0]
+        min = list[0]q:
         for item in list:
             if item < min:
                 min = item
@@ -44,13 +44,18 @@ class Person:
 
 
 person = Person("Liku", "Male", "Software Developer")
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> b8a22c99b90b7a073637ded0fd9cd8ffc67f2f55
 # person.show()
 # person.work()
 # person.printString(person.profession)
 # list = [5, 6, 3, 8, 9, 4]
 # print(person.findMinList(list))
 person.printRange()
+<<<<<<< HEAD
 
 person.show()
 person.work()
@@ -58,3 +63,9 @@ person.work()
 x = 5
 print(x)
 print(id(x))
+=======
+=======
+person.show()
+person.work()
+>>>>>>> 8b4ae36a81bdf249b1f2190bf6d04f65e77582c3
+>>>>>>> b8a22c99b90b7a073637ded0fd9cd8ffc67f2f55
