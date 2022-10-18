@@ -31,7 +31,7 @@ class Person:
             # print(character)
 
     def findMinList(self, list):
-        min = list[0]q:
+        min = list[0]
         for item in list:
             if item < min:
                 min = item
