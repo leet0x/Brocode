@@ -5,7 +5,6 @@ list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 # Expected output:
 # ["Mike", "Emma", "Kelly", "Brad"]
 
-for l1 in list1:
-    # print(l1)
-    if l1 == "":
-        print(l1.)
+list2 = list(filter(lambda x: x != "", list1))
+
+print(list2)
