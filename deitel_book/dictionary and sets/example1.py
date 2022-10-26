@@ -41,19 +41,31 @@ print("Albania" not in country_codes) # False
 print(country_codes.keys())
 print(country_codes.values())
 
+# converting dictionary Keys, Values and key-value pairs t Lists
+keys_list = list(country_codes.keys())
+print(keys_list)
+values_list = list(country_codes.values())
+print(values_list)
+key_value_list = list(country_codes.items())
+print(key_value_list)
 
+# processing keys in sorted order
+for keys in sorted(country_codes.keys()):
+    print(keys, end=" ")
+print()
+# dictionary comparisons
+# the comparison operator == and != can be  used to determine whether
+# two dictionaries have identical or different contents.
+# An equals (==) comparison evaluates to True if  both dictionaries
+# have the same key-value pairs, regardless of the order in which
+# those key-value pairs were added to each dictionary
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+country_capitals1 = {"Belgium": "Brussels",
+                     "Haiti": "Port-au-Prince"}
+country_capitals2 = {"Nepal": "Kathmandu",
+                     "Uruguay": "Montevideo"}
+country_capitals3 = {"Haiti": "Port-au-Prince",
+                     "Belgium": "Brussels"}
+print(country_capitals1 == country_capitals2) # False
+print(country_capitals1 == country_capitals3) # True
+print(country_capitals1 != country_capitals2) # True
