@@ -13,3 +13,10 @@ keys = ["name", "salary"]
 # Expected output:
 # {'city': 'New york', 'age': 25}
 
+for k in keys:
+    # frist solution
+    del sample_dict[k]
+    #second solution
+    # sample_dict.pop(k)
+
+print(sample_dict)
