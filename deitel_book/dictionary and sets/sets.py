@@ -17,7 +17,7 @@ print(f"set2: {set2}")
 print(f"union between set1 and set2: {set1 | set2}")
 print(set1.union([20, 20, 3, 40, 40]))
 
-#intersection
+# intersection
 print(f"intersection between set1 and set2: {set1 & set2}")
 
 # difference
@@ -41,6 +41,10 @@ print(set1)
 # cause an exception if the value is not in the set.
 # set1.discard(10)
 set1.pop()
-set1.clear() # empties the set
+set1.clear()  # empties the set
 
 # set comprehension
+numbers = [1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 10]
+evens = {item for item in numbers if item % 2 == 0}
+print("printing evens for set comprehension")
+print(evens)
